@@ -3,6 +3,7 @@ var Rep;
 function maim()
 {
 Rep = httpGet()
+    Document.write("Minecraft.net is: " + Rep.minecraft.net)
 }
 
 function httpGet()
