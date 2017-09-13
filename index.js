@@ -1,6 +1,6 @@
 var Rep;
 
-function maim()
+function main()
 {
 Rep = httpGet();
     Document.write("Minecraft.net is: " + Rep.minecraft.net)
