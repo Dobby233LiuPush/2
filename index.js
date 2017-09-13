@@ -2,8 +2,10 @@ var Rep;
 
 function maim()
 {
-Rep = httpGet()
+Rep = httpGet();
     Document.write("Minecraft.net is: " + Rep.minecraft.net)
+    Document.write("Minecraft session is: " + Rep.session.minecraft.net)
+    
 }
 
 function httpGet()
