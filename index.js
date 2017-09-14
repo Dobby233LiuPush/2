@@ -5,7 +5,7 @@ function main()
 Rep = httpGet()
     Document.write("Minecraft.net is: " + Rep.minecraft.net + "\n")
     Document.write("Minecraft session is: " + Rep.session.minecraft.net)
-    
+    alert("it is beta")
 }
 
 function httpGet()
