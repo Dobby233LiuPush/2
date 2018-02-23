@@ -1,4 +1,4 @@
-
+try{
 var Rep;
 
 function main()
@@ -14,7 +14,7 @@ main()
 function httpGet()
 {
     var xmlHttp = new XMLHttpRequest();
-    xmlHttp.open( "GET", "status.mojang.com/check", false ); // false for synchronous request
+    xmlHttp.open( "GET", "http://status.mojang.com/check", false ); // false for synchronous request
     xmlHttp.send( null );
     return xmlHttp.responseText;
-}
+}}catch(e){alert(e.message)}
