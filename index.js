@@ -9,6 +9,7 @@ Rep = JSON.parse(httpGet());
     document.write("Minecraft session is: " + Rep.session.minecraft.net)
     
 }
+main()
 
 function httpGet()
 {
